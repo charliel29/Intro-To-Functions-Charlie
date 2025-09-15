@@ -1,7 +1,7 @@
-# import turtle
-# from turtle import *
-# t = Turtle()
-# t.shape('turtle')
+import turtle
+from turtle import *
+t = Turtle()
+t.shape('turtle')
     
 
 
@@ -24,37 +24,59 @@ def addsquare():
         t.speed(200)
 addsquare()
 turtle.done() """
- 
-def square(x):
-    t.forward(x)
-    t.left(90)
-    t.forward(x)
-    t.left(90)
-    t.forward(x)
-    t.left(90)
-    t.forward(x)
-    t.left(90)
-
-for i in range(100):
-    square(200)
-    t.right(5)
-    t.speed(200)
 
 
+def square():
+ for i in range(60):
+      square(5)
+      t.right(5)
+      t.speed(200)
+def addsquares(x):
+        length = 25
+for i in range(60):
+        square(length, 90)
+        length = length * 5
+addsquares(5) 
+turtle.done()
 
 
+""" #float
+#bill = 3.14
+students = ["cade","mason","andy"]
+#can reference each iten in a list by their index
+print(students[0]) #prints cade
+
+#add students
+students.append("alina")
+
+#we can iterate or loop through a list 
+for students in students:
+      print(student) """
+
+""" #boolean true or flase 
+x = true 
+y= False
+#evaluations use double ==
+if y==true:
+      print("hello rodney")
+print ("goodbye rodney")
+ """
+""" x=10
+if x<10:
+      print("less")
+      elife x== 10:
+      print("eqaul")
+else:
+    print ("Greater than 10") """
 
 
-
-
-
-
-
-
-
-
-
-
+""" 
+students=["cade","mason","andy","alina"]
+for student in students:
+ found=False
+if student=="mason":
+ print("Found mason")
+found=true """
 
  
 
