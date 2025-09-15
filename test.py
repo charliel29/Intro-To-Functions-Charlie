@@ -1,9 +1,7 @@
-# import turtle
-# from turtle import *
-# t = Turtle()
-# t.shape('turtle')
-    
-
+import turtle
+from turtle import *
+t = Turtle()
+t.shape('turtle')
 
 """ def square(x):
     t.forward(x)
@@ -25,20 +23,15 @@ def addsquare():
 addsquare()
 turtle.done() """
  
-def square(x):
-    t.forward(x)
-    t.left(90)
-    t.forward(x)
-    t.left(90)
-    t.forward(x)
-    t.left(90)
-    t.forward(x)
-    t.left(90)
+def spiralStars():
+    size = 10
+    for i in range(30):     
+        star(size)
+        t.right(15)         
+        size += 5           
 
-for i in range(100):
-    square(200)
-    t.right(5)
-    t.speed(200)
+
+
 
 
 
