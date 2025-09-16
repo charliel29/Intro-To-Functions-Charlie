@@ -2,11 +2,6 @@ import turtle
 from turtle import *
 t = Turtle()
 t.shape('turtle')
-<<<<<<< HEAD
-    
-
-=======
->>>>>>> 6b5774cdbbdeb4322c4c1fa3c54b71d48979b2df
 
 """ def square(x):
     t.forward(x)
@@ -27,45 +22,8 @@ def addsquare():
         t.speed(200)
 addsquare()
 turtle.done() """
-<<<<<<< HEAD
-=======
+
  
-def spiralStars():
-    size = 10
-    for i in range(30):     
-        star(size)
-        t.right(15)         
-        size += 5           
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> 6b5774cdbbdeb4322c4c1fa3c54b71d48979b2df
-
-
-def square():
- for i in range(60):
-      square(5)
-      t.right(5)
-      t.speed(200)
-def addsquares(x):
-        length = 25
-for i in range(60):
-        square(length, 90)
-        length = length * 5
-addsquares(5) 
-turtle.done()
-
-
 """ #float
 #bill = 3.14
 students = ["cade","mason","andy"]
@@ -104,6 +62,30 @@ if student=="mason":
  print("Found mason")
 found=true """
 
- 
+
+
+""" t.speed(200)  # Fastest drawing speed
+
+# Function to draw a square
+def draw_square(length):
+    for i in range(4):
+        t.forward(length)
+        t.left(90)
+
+# Function to draw 60 rotating, growing squares
+def spiral_squares():
+    length = 5
+    for i in range(80):
+        draw_square(length)
+        t.right(5)
+        length += 5
+
+# Call the function
+spiral_squares()
+
+# Finish the turtle graphics
+turtle.done() """
+
+
 
 
